@@ -1,6 +1,6 @@
 # Sistema de Manutenção de Contas
 
-Projeto desenvolvido em C utilizando arquivos binários.
+sistema de manutenção e cadastro de contas bancárias 
 
 ## Funcionalidades
 
