@@ -16,6 +16,11 @@ void cadastrarCliente(FILE *arquivo) {
     printf("Posicao do registro: ");
     scanf("%d", &posicao);
 
+    if (posicao < 0) {
+        printf("Posicao invalida.\n");
+        return;
+    }
+
     printf("Numero da conta: ");
     scanf("%d", &c.numeroConta);
 
@@ -143,6 +148,7 @@ void listarClientes(FILE *arquivo) {
     }
 
     printf("Fim da leitura do arquivo.\n");
+    printf("Caso nao tenha encontrado algum usuario use a opcao 6 para reposicionar o ponteiro e repetir a listagem.\n");
 }
 
 int main() {
