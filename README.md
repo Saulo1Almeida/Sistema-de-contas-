@@ -1,6 +1,6 @@
 # Sistema de Manutenção de Contas
 
-sistema de manutenção e cadastro de contas bancárias 
+Sistema de manutenção e cadastro de contas bancárias 
 
 ## Funcionalidades
 
